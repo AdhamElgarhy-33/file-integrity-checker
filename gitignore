@@ -1,0 +1,37 @@
+# ==== Generated baselines (user-specific) ====
+baseline.json
+*.baseline.json
+
+# ==== Python ====
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# ==== Virtual environments ====
+.venv/
+venv/
+env/
+ENV/
+
+# ==== Distribution / packaging ====
+build/
+dist/
+*.egg-info/
+*.egg
+
+# ==== IDE ====
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# ==== OS ====
+.DS_Store
+Thumbs.db
+
+# ==== Testing / coverage ====
+.pytest_cache/
+.coverage
+htmlcov/
